@@ -10,7 +10,7 @@ int main() {
    gets(str);
 
    i = 0;
-   j = strlen(r) - 1;
+   j = strlen(str) - 1;
 
    while (i < j) {
       temp = str[i];
@@ -19,5 +19,6 @@ int main() {
       i++;
       j--;
    }
-printf("\n%s", str);
-  }
+
+   printf("%s", str);
+ }
